@@ -1,0 +1,24 @@
+{
+  "version": 2,
+  "dgSpecHash": "7bcLKoyjQ+k/ZNgtFj+U3jROASJEZ48FL8MLtohPLUNthJ7HFbSqnKl96SeAwhju9CCrEUk0dGMLY6ErwD1uzg==",
+  "success": true,
+  "projectFilePath": "D:\\Mega\\Work\\Unit 16\\assignment 2\\Problem 1\\code\\Blazor server app.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\charl\\.nuget\\packages\\dapper\\2.0.123\\dapper.2.0.123.nupkg.sha512",
+    "C:\\Users\\charl\\.nuget\\packages\\microsoft.visualstudio.web.browserlink.12.0\\12.0.0\\microsoft.visualstudio.web.browserlink.12.0.12.0.0.nupkg.sha512",
+    "C:\\Users\\charl\\.nuget\\packages\\stub.system.data.sqlite.core.netstandard\\1.0.117\\stub.system.data.sqlite.core.netstandard.1.0.117.nupkg.sha512",
+    "C:\\Users\\charl\\.nuget\\packages\\system.data.sqlite.core\\1.0.117\\system.data.sqlite.core.1.0.117.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'Microsoft.VisualStudio.Web.BrowserLink.12.0 12.0.0' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net7.0'. This package may not be fully compatible with your project.",
+      "libraryId": "Microsoft.VisualStudio.Web.BrowserLink.12.0",
+      "targetGraphs": [
+        "net7.0"
+      ]
+    }
+  ]
+}

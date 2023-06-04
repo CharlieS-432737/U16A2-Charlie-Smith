@@ -1,0 +1,32 @@
+D:\Mega\Work\Unit 16\assignment 2\Problem 2\code\bin\Release\net7.0\Problem 2.exe
+D:\Mega\Work\Unit 16\assignment 2\Problem 2\code\bin\Release\net7.0\data\U16A2Task2Data.csv
+D:\Mega\Work\Unit 16\assignment 2\Problem 2\code\bin\Release\net7.0\Problem 2.deps.json
+D:\Mega\Work\Unit 16\assignment 2\Problem 2\code\bin\Release\net7.0\Problem 2.runtimeconfig.json
+D:\Mega\Work\Unit 16\assignment 2\Problem 2\code\bin\Release\net7.0\Problem 2.dll
+D:\Mega\Work\Unit 16\assignment 2\Problem 2\code\bin\Release\net7.0\Problem 2.pdb
+D:\Mega\Work\Unit 16\assignment 2\Problem 2\code\obj\Release\net7.0\Problem 2.csproj.AssemblyReference.cache
+D:\Mega\Work\Unit 16\assignment 2\Problem 2\code\obj\Release\net7.0\Problem 2.GeneratedMSBuildEditorConfig.editorconfig
+D:\Mega\Work\Unit 16\assignment 2\Problem 2\code\obj\Release\net7.0\Problem 2.AssemblyInfoInputs.cache
+D:\Mega\Work\Unit 16\assignment 2\Problem 2\code\obj\Release\net7.0\Problem 2.AssemblyInfo.cs
+D:\Mega\Work\Unit 16\assignment 2\Problem 2\code\obj\Release\net7.0\Problem 2.csproj.CoreCompileInputs.cache
+D:\Mega\Work\Unit 16\assignment 2\Problem 2\code\obj\Release\net7.0\Problem 2.dll
+D:\Mega\Work\Unit 16\assignment 2\Problem 2\code\obj\Release\net7.0\refint\Problem 2.dll
+D:\Mega\Work\Unit 16\assignment 2\Problem 2\code\obj\Release\net7.0\Problem 2.pdb
+D:\Mega\Work\Unit 16\assignment 2\Problem 2\code\obj\Release\net7.0\Problem 2.genruntimeconfig.cache
+D:\Mega\Work\Unit 16\assignment 2\Problem 2\code\obj\Release\net7.0\ref\Problem 2.dll
+D:\Mega\Work\Unit 16\assignment 2\U16A2 Charlie Smith\Problem 2\code\bin\Release\net7.0\Problem 2.exe
+D:\Mega\Work\Unit 16\assignment 2\U16A2 Charlie Smith\Problem 2\code\bin\Release\net7.0\data\U16A2Task2Data.csv
+D:\Mega\Work\Unit 16\assignment 2\U16A2 Charlie Smith\Problem 2\code\bin\Release\net7.0\Problem 2.deps.json
+D:\Mega\Work\Unit 16\assignment 2\U16A2 Charlie Smith\Problem 2\code\bin\Release\net7.0\Problem 2.runtimeconfig.json
+D:\Mega\Work\Unit 16\assignment 2\U16A2 Charlie Smith\Problem 2\code\bin\Release\net7.0\Problem 2.dll
+D:\Mega\Work\Unit 16\assignment 2\U16A2 Charlie Smith\Problem 2\code\bin\Release\net7.0\Problem 2.pdb
+D:\Mega\Work\Unit 16\assignment 2\U16A2 Charlie Smith\Problem 2\code\obj\Release\net7.0\Problem 2.csproj.AssemblyReference.cache
+D:\Mega\Work\Unit 16\assignment 2\U16A2 Charlie Smith\Problem 2\code\obj\Release\net7.0\Problem 2.GeneratedMSBuildEditorConfig.editorconfig
+D:\Mega\Work\Unit 16\assignment 2\U16A2 Charlie Smith\Problem 2\code\obj\Release\net7.0\Problem 2.AssemblyInfoInputs.cache
+D:\Mega\Work\Unit 16\assignment 2\U16A2 Charlie Smith\Problem 2\code\obj\Release\net7.0\Problem 2.AssemblyInfo.cs
+D:\Mega\Work\Unit 16\assignment 2\U16A2 Charlie Smith\Problem 2\code\obj\Release\net7.0\Problem 2.csproj.CoreCompileInputs.cache
+D:\Mega\Work\Unit 16\assignment 2\U16A2 Charlie Smith\Problem 2\code\obj\Release\net7.0\Problem 2.dll
+D:\Mega\Work\Unit 16\assignment 2\U16A2 Charlie Smith\Problem 2\code\obj\Release\net7.0\refint\Problem 2.dll
+D:\Mega\Work\Unit 16\assignment 2\U16A2 Charlie Smith\Problem 2\code\obj\Release\net7.0\Problem 2.pdb
+D:\Mega\Work\Unit 16\assignment 2\U16A2 Charlie Smith\Problem 2\code\obj\Release\net7.0\Problem 2.genruntimeconfig.cache
+D:\Mega\Work\Unit 16\assignment 2\U16A2 Charlie Smith\Problem 2\code\obj\Release\net7.0\ref\Problem 2.dll

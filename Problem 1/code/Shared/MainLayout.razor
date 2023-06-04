@@ -1,0 +1,20 @@
+@inherits LayoutComponentBase
+
+<div class="container">
+    <div class="content">
+        @Body
+    </div>
+</div>
+
+<style>
+    .container{
+        width: 100%;
+        display: grid;
+        grid-template-columns: 20dvw 60dvw 20dvw;
+    }
+    .content{
+        grid-column: 2;
+        justify-self: center;
+        width: 100%;
+    }
+</style>

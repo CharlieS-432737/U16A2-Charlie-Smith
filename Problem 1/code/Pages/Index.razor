@@ -1,0 +1,232 @@
+﻿@page "/"
+@layout Shared.MainLayout
+@inject Blazor_server_app.services.SQLiteDataService SQLiteDataService
+@inject NavigationManager NavigationManager
+
+<div class="tasklist">
+    <h1>Task List</h1>
+
+    <button class="addTask" @onclick="() => GoToAnotherPage()">Add Task</button>
+
+    <div class="filter">
+        <label>Filter:</label>
+        <select @onchange="(e) => UpdateFilter(e)">
+            <option value="all">All Tasks</option>
+            <option value="completed">Completed Tasks</option>
+            <option value="incomplete">Incomplete Tasks</option>
+        </select>
+    </div>
+    
+    <div class="tasks">
+        @foreach (var task in FilteredTasks)
+        {
+            <div class="task @completedClass(Convert.ToInt16(task.Completed))">
+                <div class="top" >
+                    <h3>@task.Title</h3>
+                    @if (Convert.ToInt16(task.Completed) == 1)
+                    {
+                        <h3>Completed</h3>
+                    }
+                    else 
+                    {
+                        <h3>@task.Due_date</h3>
+                    }
+                </div>
+                <div class="body">
+                    <div class="description">
+                        <p>@task.Description</p>
+                    </div>
+                    <div class="buttons">
+                        @if (Convert.ToInt16(task.Completed) != 1)
+                        {
+                            <button class="check" @onclick="() => { MarkCompleted(Convert.ToInt32(task.id)); }"><svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 448 512"><!--! Font Awesome Free 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M438.6 105.4c12.5 12.5 12.5 32.8 0 45.3l-256 256c-12.5 12.5-32.8 12.5-45.3 0l-128-128c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0L160 338.7 393.4 105.4c12.5-12.5 32.8-12.5 45.3 0z"/></svg></button>
+                            <button @onclick="() => { EditData(Convert.ToInt32(task.id)); }"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Pro 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M471.6 21.7c-21.9-21.9-57.3-21.9-79.2 0L362.3 51.7l97.9 97.9 30.1-30.1c21.9-21.9 21.9-57.3 0-79.2L471.6 21.7zm-299.2 220c-6.1 6.1-10.8 13.6-13.5 21.9l-29.6 88.8c-2.9 8.6-.6 18.1 5.8 24.6s15.9 8.7 24.6 5.8l88.8-29.6c8.2-2.7 15.7-7.4 21.9-13.5L437.7 172.3 339.7 74.3 172.4 241.7zM96 64C43 64 0 107 0 160V416c0 53 43 96 96 96H352c53 0 96-43 96-96V320c0-17.7-14.3-32-32-32s-32 14.3-32 32v96c0 17.7-14.3 32-32 32H96c-17.7 0-32-14.3-32-32V160c0-17.7 14.3-32 32-32h96c17.7 0 32-14.3 32-32s-14.3-32-32-32H96z" /></svg></button>
+                        }
+                        <button class="deleteBtn" @onclick="() => { DeleteData(Convert.ToInt32(task.id)); }"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Pro 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M135.2 17.7L128 32H32C14.3 32 0 46.3 0 64S14.3 96 32 96H416c17.7 0 32-14.3 32-32s-14.3-32-32-32H320l-7.2-14.3C307.4 6.8 296.3 0 284.2 0H163.8c-12.1 0-23.2 6.8-28.6 17.7zM416 128H32L53.2 467c1.6 25.3 22.6 45 47.9 45H346.9c25.3 0 46.3-19.7 47.9-45L416 128z"/></svg></button>
+                    </div>
+                </div>
+            </div>
+        }
+    </div>
+</div>
+
+<style>
+    h1{
+        margin-top: 4em;
+        border-bottom: .1em solid #000000;
+        text-align: center;
+    }
+    h3{
+        padding: 0px .5em;
+    }
+
+    .tasklist{
+        display: flex;
+        flex-direction: column;
+    }
+    .filter{
+        align-self: flex-end;
+    }
+    .task{
+        margin: 1em 0px;
+        border: .1em solid #000000;
+        padding: 1em;
+        border-radius: 1em;
+    }
+    .top{
+        display: flex;
+        justify-content: space-between;
+        border-bottom: .1em solid #bebebe;
+    }
+    .task p{
+        padding: .5em;
+    }
+    .completed{
+        background-color: #70f03e;
+    }
+    .addTask{
+        background: none;
+        font-size: 1em;
+        background-color: #0000ff;
+        width: 100%;
+        color: #ffffff;
+        border: 0.1em #0b0070 solid;
+        border-radius: 1em;
+        padding: 0.5em 0;
+        margin: 1em 0;
+        font: inherit;
+        cursor: pointer;
+        outline: inherit;
+    }
+    .addTask:hover{
+        background-color: #5353ff;
+    }
+    .body{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .buttons{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+    .deleteBtn{
+        background-color: #ff0000 !important;
+    }
+    .deleteBtn:hover{
+        background-color: #ff5353 !important;
+    }
+    .check{
+        background-color: #00ff00 !important;
+    }
+    .check:hover{
+        background-color: #53ff53 !important;
+    }
+    .buttons > button{
+        width: 2em;
+        background: none;
+        font-size: 1em;
+        background-color: #0000ff;
+        color: #ffffff;
+        border: 0.1em #000000 solid;
+        border-radius: 0.5em;
+        padding: 0.3em;
+        margin: 0.5em;
+        font: inherit;
+        cursor: pointer;
+        outline: inherit;
+    }
+    .buttons > button:hover{
+        background-color: #5353ff;
+    }
+    .buttons > button > svg{
+        width: 100%;
+    }
+</style>
+
+@code {
+    // Variable to store the selected filter option
+    private string filterOption = "all";
+
+    // Method to navigate to another page
+    private void GoToAnotherPage()
+    {
+        NavigationManager.NavigateTo("/add-task");
+    }
+
+    // Method to determine the CSS class for completed tasks
+    string completedClass(int taskCompleted)
+    {
+        if (taskCompleted == 1)
+        {
+            return "completed";
+        }
+        else
+        {
+            return "incomplete";
+        }
+    }
+
+    // List to store task data
+    private List<dynamic>? data;
+
+    // Initialize the component and fetch data
+    protected override void OnInitialized()
+    {
+        FetchData();
+    }
+
+    // Method to fetch data from SQLiteDataService
+    private void FetchData()
+    {
+        data = SQLiteDataService.QueryData("SELECT * FROM tasks").ToList();
+        data.Reverse();
+    }
+
+    // Method to update the task filter option
+    private void UpdateFilter(ChangeEventArgs e)
+    {
+        filterOption = e.Value.ToString();
+    }
+
+    // Property to get the filtered tasks based on the selected filter option
+    private IEnumerable<dynamic> FilteredTasks
+    {
+        get
+        {
+            if (filterOption == "completed")
+            {
+                return data?.Where(task => Convert.ToInt16(task.Completed) == 1);
+            }
+            else if (filterOption == "incomplete")
+            {
+                return data?.Where(task => Convert.ToInt16(task.Completed) != 1);
+            }
+            else
+            {
+                return data;
+            }
+        }
+    }
+
+    // Method to delete a task
+    private void DeleteData(int id)
+    {
+        SQLiteDataService.QueryData($"DELETE FROM tasks WHERE id = '{id}'");
+        NavigationManager.NavigateTo(NavigationManager.Uri, forceLoad: true);
+    }
+
+    // Method to mark a task as completed
+    private void MarkCompleted(int id)
+    {
+        SQLiteDataService.QueryData($"UPDATE tasks SET Completed = 1 WHERE id = '{id}'");
+        NavigationManager.NavigateTo(NavigationManager.Uri, forceLoad: true);
+    }
+
+    // Method to edit a task
+    private void EditData(int id)
+    {
+        NavigationManager.NavigateTo($"/edit-task/{id}");
+    }
+}

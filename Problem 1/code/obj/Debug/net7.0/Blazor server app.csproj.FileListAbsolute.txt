@@ -1,0 +1,103 @@
+C:\Drive\Mega\VS Code\Blazor\Blazor server app\bin\Debug\net7.0\appsettings.Development.json
+C:\Drive\Mega\VS Code\Blazor\Blazor server app\bin\Debug\net7.0\appsettings.json
+C:\Drive\Mega\VS Code\Blazor\Blazor server app\bin\Debug\net7.0\Blazor server app.staticwebassets.runtime.json
+C:\Drive\Mega\VS Code\Blazor\Blazor server app\bin\Debug\net7.0\Blazor server app.exe
+C:\Drive\Mega\VS Code\Blazor\Blazor server app\bin\Debug\net7.0\Blazor server app.deps.json
+C:\Drive\Mega\VS Code\Blazor\Blazor server app\bin\Debug\net7.0\Blazor server app.runtimeconfig.json
+C:\Drive\Mega\VS Code\Blazor\Blazor server app\bin\Debug\net7.0\Blazor server app.dll
+C:\Drive\Mega\VS Code\Blazor\Blazor server app\bin\Debug\net7.0\Blazor server app.pdb
+C:\Drive\Mega\VS Code\Blazor\Blazor server app\obj\Debug\net7.0\Blazor server app.csproj.AssemblyReference.cache
+C:\Drive\Mega\VS Code\Blazor\Blazor server app\obj\Debug\net7.0\Blazor server app.GeneratedMSBuildEditorConfig.editorconfig
+C:\Drive\Mega\VS Code\Blazor\Blazor server app\obj\Debug\net7.0\Blazor server app.AssemblyInfoInputs.cache
+C:\Drive\Mega\VS Code\Blazor\Blazor server app\obj\Debug\net7.0\Blazor server app.AssemblyInfo.cs
+C:\Drive\Mega\VS Code\Blazor\Blazor server app\obj\Debug\net7.0\Blazor server app.csproj.CoreCompileInputs.cache
+C:\Drive\Mega\VS Code\Blazor\Blazor server app\obj\Debug\net7.0\Blazor server app.MvcApplicationPartsAssemblyInfo.cache
+C:\Drive\Mega\VS Code\Blazor\Blazor server app\obj\Debug\net7.0\Blazor server app.RazorAssemblyInfo.cache
+C:\Drive\Mega\VS Code\Blazor\Blazor server app\obj\Debug\net7.0\Blazor server app.RazorAssemblyInfo.cs
+C:\Drive\Mega\VS Code\Blazor\Blazor server app\obj\Debug\net7.0\staticwebassets\msbuild.Blazor server app.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Drive\Mega\VS Code\Blazor\Blazor server app\obj\Debug\net7.0\staticwebassets\msbuild.build.Blazor server app.props
+C:\Drive\Mega\VS Code\Blazor\Blazor server app\obj\Debug\net7.0\staticwebassets\msbuild.buildMultiTargeting.Blazor server app.props
+C:\Drive\Mega\VS Code\Blazor\Blazor server app\obj\Debug\net7.0\staticwebassets\msbuild.buildTransitive.Blazor server app.props
+C:\Drive\Mega\VS Code\Blazor\Blazor server app\obj\Debug\net7.0\staticwebassets.pack.json
+C:\Drive\Mega\VS Code\Blazor\Blazor server app\obj\Debug\net7.0\staticwebassets.build.json
+C:\Drive\Mega\VS Code\Blazor\Blazor server app\obj\Debug\net7.0\staticwebassets.development.json
+C:\Drive\Mega\VS Code\Blazor\Blazor server app\obj\Debug\net7.0\scopedcss\bundle\Blazor server app.styles.css
+C:\Drive\Mega\VS Code\Blazor\Blazor server app\obj\Debug\net7.0\Blazor server app.dll
+C:\Drive\Mega\VS Code\Blazor\Blazor server app\obj\Debug\net7.0\refint\Blazor server app.dll
+C:\Drive\Mega\VS Code\Blazor\Blazor server app\obj\Debug\net7.0\Blazor server app.pdb
+C:\Drive\Mega\VS Code\Blazor\Blazor server app\obj\Debug\net7.0\Blazor server app.genruntimeconfig.cache
+C:\Drive\Mega\VS Code\Blazor\Blazor server app\obj\Debug\net7.0\ref\Blazor server app.dll
+C:\Drive\Mega\College\Unit 16\assignment 2\Problem 1\code\obj\Debug\net7.0\Blazor server app.csproj.AssemblyReference.cache
+C:\Drive\Mega\College\Unit 16\assignment 2\Problem 1\code\obj\Debug\net7.0\Blazor server app.GeneratedMSBuildEditorConfig.editorconfig
+C:\Drive\Mega\College\Unit 16\assignment 2\Problem 1\code\obj\Debug\net7.0\Blazor server app.AssemblyInfoInputs.cache
+C:\Drive\Mega\College\Unit 16\assignment 2\Problem 1\code\obj\Debug\net7.0\Blazor server app.AssemblyInfo.cs
+C:\Drive\Mega\College\Unit 16\assignment 2\Problem 1\code\obj\Debug\net7.0\Blazor server app.csproj.CoreCompileInputs.cache
+C:\Drive\Mega\College\Unit 16\assignment 2\Problem 1\code\obj\Debug\net7.0\Blazor server app.MvcApplicationPartsAssemblyInfo.cache
+C:\Drive\Mega\College\Unit 16\assignment 2\Problem 1\code\obj\Debug\net7.0\Blazor server app.RazorAssemblyInfo.cache
+C:\Drive\Mega\College\Unit 16\assignment 2\Problem 1\code\obj\Debug\net7.0\Blazor server app.RazorAssemblyInfo.cs
+C:\Drive\Mega\College\Unit 16\assignment 2\Problem 1\code\obj\Debug\net7.0\Blazor server app.dll
+C:\Drive\Mega\College\Unit 16\assignment 2\Problem 1\code\obj\Debug\net7.0\refint\Blazor server app.dll
+C:\Drive\Mega\College\Unit 16\assignment 2\Problem 1\code\obj\Debug\net7.0\Blazor server app.pdb
+C:\Drive\Mega\College\Unit 16\assignment 2\Problem 1\code\bin\Debug\net7.0\appsettings.Development.json
+C:\Drive\Mega\College\Unit 16\assignment 2\Problem 1\code\bin\Debug\net7.0\appsettings.json
+C:\Drive\Mega\College\Unit 16\assignment 2\Problem 1\code\bin\Debug\net7.0\Blazor server app.staticwebassets.runtime.json
+C:\Drive\Mega\College\Unit 16\assignment 2\Problem 1\code\bin\Debug\net7.0\Blazor server app.exe
+C:\Drive\Mega\College\Unit 16\assignment 2\Problem 1\code\bin\Debug\net7.0\Blazor server app.deps.json
+C:\Drive\Mega\College\Unit 16\assignment 2\Problem 1\code\bin\Debug\net7.0\Blazor server app.runtimeconfig.json
+C:\Drive\Mega\College\Unit 16\assignment 2\Problem 1\code\bin\Debug\net7.0\Blazor server app.dll
+C:\Drive\Mega\College\Unit 16\assignment 2\Problem 1\code\bin\Debug\net7.0\Blazor server app.pdb
+C:\Drive\Mega\College\Unit 16\assignment 2\Problem 1\code\bin\Debug\net7.0\Dapper.dll
+C:\Drive\Mega\College\Unit 16\assignment 2\Problem 1\code\bin\Debug\net7.0\System.Data.SQLite.dll
+C:\Drive\Mega\College\Unit 16\assignment 2\Problem 1\code\bin\Debug\net7.0\runtimes\linux-x64\native\SQLite.Interop.dll
+C:\Drive\Mega\College\Unit 16\assignment 2\Problem 1\code\bin\Debug\net7.0\runtimes\osx-x64\native\SQLite.Interop.dll
+C:\Drive\Mega\College\Unit 16\assignment 2\Problem 1\code\bin\Debug\net7.0\runtimes\win-x64\native\SQLite.Interop.dll
+C:\Drive\Mega\College\Unit 16\assignment 2\Problem 1\code\bin\Debug\net7.0\runtimes\win-x86\native\SQLite.Interop.dll
+C:\Drive\Mega\College\Unit 16\assignment 2\Problem 1\code\obj\Debug\net7.0\staticwebassets\msbuild.Blazor server app.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Drive\Mega\College\Unit 16\assignment 2\Problem 1\code\obj\Debug\net7.0\staticwebassets\msbuild.build.Blazor server app.props
+C:\Drive\Mega\College\Unit 16\assignment 2\Problem 1\code\obj\Debug\net7.0\staticwebassets\msbuild.buildMultiTargeting.Blazor server app.props
+C:\Drive\Mega\College\Unit 16\assignment 2\Problem 1\code\obj\Debug\net7.0\staticwebassets\msbuild.buildTransitive.Blazor server app.props
+C:\Drive\Mega\College\Unit 16\assignment 2\Problem 1\code\obj\Debug\net7.0\staticwebassets.pack.json
+C:\Drive\Mega\College\Unit 16\assignment 2\Problem 1\code\obj\Debug\net7.0\staticwebassets.build.json
+C:\Drive\Mega\College\Unit 16\assignment 2\Problem 1\code\obj\Debug\net7.0\staticwebassets.development.json
+C:\Drive\Mega\College\Unit 16\assignment 2\Problem 1\code\obj\Debug\net7.0\scopedcss\bundle\Blazor server app.styles.css
+C:\Drive\Mega\College\Unit 16\assignment 2\Problem 1\code\obj\Debug\net7.0\Blazor server app.csproj.CopyComplete
+C:\Drive\Mega\College\Unit 16\assignment 2\Problem 1\code\obj\Debug\net7.0\Blazor server app.genruntimeconfig.cache
+C:\Drive\Mega\College\Unit 16\assignment 2\Problem 1\code\obj\Debug\net7.0\ref\Blazor server app.dll
+D:\Mega\Work\Unit 16\assignment 2\Problem 1\code\bin\Debug\net7.0\appsettings.Development.json
+D:\Mega\Work\Unit 16\assignment 2\Problem 1\code\bin\Debug\net7.0\appsettings.json
+D:\Mega\Work\Unit 16\assignment 2\Problem 1\code\bin\Debug\net7.0\Blazor server app.staticwebassets.runtime.json
+D:\Mega\Work\Unit 16\assignment 2\Problem 1\code\bin\Debug\net7.0\Blazor server app.exe
+D:\Mega\Work\Unit 16\assignment 2\Problem 1\code\bin\Debug\net7.0\data\tasks.db
+D:\Mega\Work\Unit 16\assignment 2\Problem 1\code\bin\Debug\net7.0\Blazor server app.deps.json
+D:\Mega\Work\Unit 16\assignment 2\Problem 1\code\bin\Debug\net7.0\Blazor server app.runtimeconfig.json
+D:\Mega\Work\Unit 16\assignment 2\Problem 1\code\bin\Debug\net7.0\Blazor server app.dll
+D:\Mega\Work\Unit 16\assignment 2\Problem 1\code\bin\Debug\net7.0\Blazor server app.pdb
+D:\Mega\Work\Unit 16\assignment 2\Problem 1\code\bin\Debug\net7.0\Dapper.dll
+D:\Mega\Work\Unit 16\assignment 2\Problem 1\code\bin\Debug\net7.0\System.Data.SQLite.dll
+D:\Mega\Work\Unit 16\assignment 2\Problem 1\code\bin\Debug\net7.0\runtimes\linux-x64\native\SQLite.Interop.dll
+D:\Mega\Work\Unit 16\assignment 2\Problem 1\code\bin\Debug\net7.0\runtimes\osx-x64\native\SQLite.Interop.dll
+D:\Mega\Work\Unit 16\assignment 2\Problem 1\code\bin\Debug\net7.0\runtimes\win-x64\native\SQLite.Interop.dll
+D:\Mega\Work\Unit 16\assignment 2\Problem 1\code\bin\Debug\net7.0\runtimes\win-x86\native\SQLite.Interop.dll
+D:\Mega\Work\Unit 16\assignment 2\Problem 1\code\obj\Debug\net7.0\Blazor server app.csproj.AssemblyReference.cache
+D:\Mega\Work\Unit 16\assignment 2\Problem 1\code\obj\Debug\net7.0\Blazor server app.GeneratedMSBuildEditorConfig.editorconfig
+D:\Mega\Work\Unit 16\assignment 2\Problem 1\code\obj\Debug\net7.0\Blazor server app.AssemblyInfoInputs.cache
+D:\Mega\Work\Unit 16\assignment 2\Problem 1\code\obj\Debug\net7.0\Blazor server app.AssemblyInfo.cs
+D:\Mega\Work\Unit 16\assignment 2\Problem 1\code\obj\Debug\net7.0\Blazor server app.csproj.CoreCompileInputs.cache
+D:\Mega\Work\Unit 16\assignment 2\Problem 1\code\obj\Debug\net7.0\Blazor server app.MvcApplicationPartsAssemblyInfo.cache
+D:\Mega\Work\Unit 16\assignment 2\Problem 1\code\obj\Debug\net7.0\Blazor server app.RazorAssemblyInfo.cache
+D:\Mega\Work\Unit 16\assignment 2\Problem 1\code\obj\Debug\net7.0\Blazor server app.RazorAssemblyInfo.cs
+D:\Mega\Work\Unit 16\assignment 2\Problem 1\code\obj\Debug\net7.0\staticwebassets\msbuild.Blazor server app.Microsoft.AspNetCore.StaticWebAssets.props
+D:\Mega\Work\Unit 16\assignment 2\Problem 1\code\obj\Debug\net7.0\staticwebassets\msbuild.build.Blazor server app.props
+D:\Mega\Work\Unit 16\assignment 2\Problem 1\code\obj\Debug\net7.0\staticwebassets\msbuild.buildMultiTargeting.Blazor server app.props
+D:\Mega\Work\Unit 16\assignment 2\Problem 1\code\obj\Debug\net7.0\staticwebassets\msbuild.buildTransitive.Blazor server app.props
+D:\Mega\Work\Unit 16\assignment 2\Problem 1\code\obj\Debug\net7.0\staticwebassets.pack.json
+D:\Mega\Work\Unit 16\assignment 2\Problem 1\code\obj\Debug\net7.0\staticwebassets.build.json
+D:\Mega\Work\Unit 16\assignment 2\Problem 1\code\obj\Debug\net7.0\staticwebassets.development.json
+D:\Mega\Work\Unit 16\assignment 2\Problem 1\code\obj\Debug\net7.0\scopedcss\bundle\Blazor server app.styles.css
+D:\Mega\Work\Unit 16\assignment 2\Problem 1\code\obj\Debug\net7.0\Blazor server app.csproj.CopyComplete
+D:\Mega\Work\Unit 16\assignment 2\Problem 1\code\obj\Debug\net7.0\Blazor server app.dll
+D:\Mega\Work\Unit 16\assignment 2\Problem 1\code\obj\Debug\net7.0\refint\Blazor server app.dll
+D:\Mega\Work\Unit 16\assignment 2\Problem 1\code\obj\Debug\net7.0\Blazor server app.pdb
+D:\Mega\Work\Unit 16\assignment 2\Problem 1\code\obj\Debug\net7.0\Blazor server app.genruntimeconfig.cache
+D:\Mega\Work\Unit 16\assignment 2\Problem 1\code\obj\Debug\net7.0\ref\Blazor server app.dll
+D:\Mega\Work\Unit 16\assignment 2\Problem 1\code\bin\Debug\net7.0\Microsoft.VisualStudio.Web.BrowserLink.12.0.dll

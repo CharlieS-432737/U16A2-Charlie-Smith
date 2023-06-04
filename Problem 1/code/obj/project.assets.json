@@ -1,0 +1,243 @@
+{
+  "version": 3,
+  "targets": {
+    "net7.0": {
+      "Dapper/2.0.123": {
+        "type": "package",
+        "compile": {
+          "lib/net5.0/Dapper.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net5.0/Dapper.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Microsoft.VisualStudio.Web.BrowserLink.12.0/12.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/net40/Microsoft.VisualStudio.Web.BrowserLink.12.0.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net40/Microsoft.VisualStudio.Web.BrowserLink.12.0.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Stub.System.Data.SQLite.Core.NetStandard/1.0.117": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.1/System.Data.SQLite.dll": {
+            "related": ".dll.altconfig;.xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.1/System.Data.SQLite.dll": {
+            "related": ".dll.altconfig;.xml"
+          }
+        },
+        "runtimeTargets": {
+          "runtimes/linux-x64/native/SQLite.Interop.dll": {
+            "assetType": "native",
+            "rid": "linux-x64"
+          },
+          "runtimes/osx-x64/native/SQLite.Interop.dll": {
+            "assetType": "native",
+            "rid": "osx-x64"
+          },
+          "runtimes/win-x64/native/SQLite.Interop.dll": {
+            "assetType": "native",
+            "rid": "win-x64"
+          },
+          "runtimes/win-x86/native/SQLite.Interop.dll": {
+            "assetType": "native",
+            "rid": "win-x86"
+          }
+        }
+      },
+      "System.Data.SQLite.Core/1.0.117": {
+        "type": "package",
+        "dependencies": {
+          "Stub.System.Data.SQLite.Core.NetStandard": "[1.0.117]"
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Dapper/2.0.123": {
+      "sha512": "RDFF4rBLLmbpi6pwkY7q/M6UXHRJEOerplDGE5jwEkP/JGJnBauAClYavNKJPW1yOTWRPIyfj4is3EaJxQXILQ==",
+      "type": "package",
+      "path": "dapper/2.0.123",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Dapper.png",
+        "dapper.2.0.123.nupkg.sha512",
+        "dapper.nuspec",
+        "lib/net461/Dapper.dll",
+        "lib/net461/Dapper.xml",
+        "lib/net5.0/Dapper.dll",
+        "lib/net5.0/Dapper.xml",
+        "lib/netstandard2.0/Dapper.dll",
+        "lib/netstandard2.0/Dapper.xml"
+      ]
+    },
+    "Microsoft.VisualStudio.Web.BrowserLink.12.0/12.0.0": {
+      "sha512": "HeuaZh8+wNVdwx7VF8guFGH2Z2zH+FYxWBsRNp+FjjlmrhCfM7GUQV5azaTv/bN5TPaK8ALJoP9UX5o1FB5k1A==",
+      "type": "package",
+      "path": "microsoft.visualstudio.web.browserlink.12.0/12.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net40/Microsoft.VisualStudio.Web.BrowserLink.12.0.dll",
+        "lib/net40/Microsoft.VisualStudio.Web.BrowserLink.12.0.xml",
+        "lib/net40/cs/Microsoft.VisualStudio.Web.BrowserLink.12.0.xml",
+        "lib/net40/de/Microsoft.VisualStudio.Web.BrowserLink.12.0.xml",
+        "lib/net40/es/Microsoft.VisualStudio.Web.BrowserLink.12.0.xml",
+        "lib/net40/fr/Microsoft.VisualStudio.Web.BrowserLink.12.0.xml",
+        "lib/net40/it/Microsoft.VisualStudio.Web.BrowserLink.12.0.xml",
+        "lib/net40/ja/Microsoft.VisualStudio.Web.BrowserLink.12.0.xml",
+        "lib/net40/ko/Microsoft.VisualStudio.Web.BrowserLink.12.0.xml",
+        "lib/net40/pl/Microsoft.VisualStudio.Web.BrowserLink.12.0.xml",
+        "lib/net40/pt-br/Microsoft.VisualStudio.Web.BrowserLink.12.0.xml",
+        "lib/net40/ru/Microsoft.VisualStudio.Web.BrowserLink.12.0.xml",
+        "lib/net40/tr/Microsoft.VisualStudio.Web.BrowserLink.12.0.xml",
+        "lib/net40/za-Hant/Microsoft.VisualStudio.Web.BrowserLink.12.0.xml",
+        "lib/net40/zh-Hans/Microsoft.VisualStudio.Web.BrowserLink.12.0.xml",
+        "microsoft.visualstudio.web.browserlink.12.0.12.0.0.nupkg.sha512",
+        "microsoft.visualstudio.web.browserlink.12.0.nuspec"
+      ]
+    },
+    "Stub.System.Data.SQLite.Core.NetStandard/1.0.117": {
+      "sha512": "x1zzPC/A4MmiKGDLoxLE6O5KLu7Kz7dyzhPQzlqYFTFcXmXAtM7hNNWpGw5yLEz833AnGbd/kxoitXArgR4YyA==",
+      "type": "package",
+      "path": "stub.system.data.sqlite.core.netstandard/1.0.117",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/netstandard2.0/System.Data.SQLite.dll",
+        "lib/netstandard2.0/System.Data.SQLite.dll.altconfig",
+        "lib/netstandard2.0/System.Data.SQLite.xml",
+        "lib/netstandard2.1/System.Data.SQLite.dll",
+        "lib/netstandard2.1/System.Data.SQLite.dll.altconfig",
+        "lib/netstandard2.1/System.Data.SQLite.xml",
+        "runtimes/linux-x64/native/SQLite.Interop.dll",
+        "runtimes/osx-x64/native/SQLite.Interop.dll",
+        "runtimes/win-x64/native/SQLite.Interop.dll",
+        "runtimes/win-x86/native/SQLite.Interop.dll",
+        "stub.system.data.sqlite.core.netstandard.1.0.117.nupkg.sha512",
+        "stub.system.data.sqlite.core.netstandard.nuspec"
+      ]
+    },
+    "System.Data.SQLite.Core/1.0.117": {
+      "sha512": "lGfOhA3QQod9XhdWYqLgNgbgq5uZnVG6DtnhDAdPisbLpTTgZBNbeGnp+GWt8C+3EyaqBYTGJWXcxHlHKwo05A==",
+      "type": "package",
+      "path": "system.data.sqlite.core/1.0.117",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "system.data.sqlite.core.1.0.117.nupkg.sha512",
+        "system.data.sqlite.core.nuspec"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net7.0": [
+      "Microsoft.VisualStudio.Web.BrowserLink.12.0 >= 12.0.0",
+      "dapper >= 2.0.123",
+      "system.data.sqlite.core >= 1.0.117"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\charl\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "D:\\Mega\\Work\\Unit 16\\assignment 2\\Problem 1\\code\\Blazor server app.csproj",
+      "projectName": "Blazor server app",
+      "projectPath": "D:\\Mega\\Work\\Unit 16\\assignment 2\\Problem 1\\code\\Blazor server app.csproj",
+      "packagesPath": "C:\\Users\\charl\\.nuget\\packages\\",
+      "outputPath": "D:\\Mega\\Work\\Unit 16\\assignment 2\\Problem 1\\code\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\charl\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net7.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\sdk\\7.0.302\\Sdks\\Microsoft.NET.Sdk.Web\\library-packs": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "projectReferences": {}
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net7.0": {
+        "targetAlias": "net7.0",
+        "dependencies": {
+          "Microsoft.VisualStudio.Web.BrowserLink.12.0": {
+            "target": "Package",
+            "version": "[12.0.0, )"
+          },
+          "dapper": {
+            "target": "Package",
+            "version": "[2.0.123, )"
+          },
+          "system.data.sqlite.core": {
+            "target": "Package",
+            "version": "[1.0.117, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.AspNetCore.App": {
+            "privateAssets": "none"
+          },
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.302\\RuntimeIdentifierGraph.json"
+      }
+    }
+  },
+  "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'Microsoft.VisualStudio.Web.BrowserLink.12.0 12.0.0' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net7.0'. This package may not be fully compatible with your project.",
+      "libraryId": "Microsoft.VisualStudio.Web.BrowserLink.12.0",
+      "targetGraphs": [
+        "net7.0"
+      ]
+    }
+  ]
+}

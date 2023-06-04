@@ -1,0 +1,112 @@
+@page "/edit-task/{id}"
+@layout Shared.MainLayout
+@inject Blazor_server_app.services.SQLiteDataService SQLiteDataService
+@inject NavigationManager NavigationManager
+@using Blazor_server_app.models
+
+<div>
+    <h1>Update task</h1>
+    <form class="taskform" @onsubmit="UpdateTask">
+        <label for="title">Title:</label>
+        <input id="title" type="text" @bind="Task.Title" class="inputText" required/>
+
+        <label for="description">Description:</label>
+        <textarea id="description" @bind="Task.Description" class="inputDes" required></textarea>
+
+        <label for="dueDate">Due Date:</label>
+        <input id="dueDate" type="date" @bind="Task.DueDate" class="inputDate" required/>
+
+        <button type="submit">Update Task</button>
+    </form>
+</div>
+
+<style>
+    h1{
+        margin-top: 4em;
+        border-bottom: .1em solid #000000;
+        text-align: center;
+    }
+    .taskform{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-top: 1em;
+    }
+    .taskform > label, .taskform > button{
+        margin-top: 1em;
+    }
+    .inputDes{
+        height: 10em;
+    }
+    .inputDate{
+        width: 20em;
+    }
+    .taskform > button{
+        background: none;
+        font-size: 1em;
+        background-color: #1900ff;
+        width: 100%;
+        color: #ffffff;
+        border: 0.1em #0b0070 solid;
+        border-radius: 1em;
+        padding: 0.5em 0;
+        margin: 1em 0;
+        font: inherit;
+        cursor: pointer;
+        outline: inherit;
+    }
+    .taskform > button:hover{
+        background-color: #5543fc;
+    }
+</style>
+
+@code {
+    // Parameter for the task id
+    [Parameter]
+    public string? id { get; set; }
+
+    // List to store task data
+    private List<dynamic>? data;
+
+    // Add 3 more properies to the TaskModel class
+    public class UpdatedTaskModel : TaskModel
+    {
+        public long? id { get; set; }
+        public DateTime Created { get; set; }
+        public long? Completed { get; set; }
+    }
+
+    // Task model object
+    private UpdatedTaskModel? Task { get; set; }
+
+    // Initialize the component and fetch data for the specified task
+    protected override void OnInitialized()
+    {
+        // Query data from SQLiteDataService based on the task id
+        data = SQLiteDataService.QueryData($"SELECT * FROM tasks WHERE id = '{Convert.ToInt32(id)}'").ToList();
+
+        // Create a new TaskModel object and populate it with fetched data
+        Task = new UpdatedTaskModel
+            {
+                id = data[0].id,
+                Created = Convert.ToDateTime(data[0].Created),
+                Title = data[0].Title,
+                Description = data[0].Description,
+                DueDate = Convert.ToDateTime(data[0].Due_date),
+                Completed = data[0].Completed
+            };
+    }
+
+    // Method to update the task
+    public void UpdateTask()
+    {
+        // Print the updated task details (for debugging purposes)
+        Console.WriteLine($"{Task.Title},{Task.Description},{Task.DueDate},{Task.id}");
+
+        // Update the task in the database using SQLiteDataService
+        SQLiteDataService.QueryData($"UPDATE tasks SET Title = '{Task.Title}', Description = '{Task.Description}', Due_date = '{Task.DueDate.ToString("dd/MM/yyyy")}' WHERE id = '{Task.id}'");
+
+        // Navigate back to the task list page
+        NavigationManager.NavigateTo("/");
+    }
+}
