@@ -9,41 +9,41 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = Blazor_server_app
 build_property.RootNamespace = Blazor_server_app
-build_property.ProjectDir = D:\Mega\Work\Unit 16\assignment 2\Problem 1\code\
+build_property.ProjectDir = D:\Mega\Work\Unit 16\assignment 2\U16A2 Charlie Smith\Problem 1\code\
 build_property.RazorLangVersion = 7.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = D:\Mega\Work\Unit 16\assignment 2\Problem 1\code
+build_property.MSBuildProjectDirectory = D:\Mega\Work\Unit 16\assignment 2\U16A2 Charlie Smith\Problem 1\code
 build_property._RazorSourceGeneratorDebug = 
 
-[D:/Mega/Work/Unit 16/assignment 2/Problem 1/code/App.razor]
+[D:/Mega/Work/Unit 16/assignment 2/U16A2 Charlie Smith/Problem 1/code/App.razor]
 build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Mega/Work/Unit 16/assignment 2/Problem 1/code/MainLayout.razor]
+[D:/Mega/Work/Unit 16/assignment 2/U16A2 Charlie Smith/Problem 1/code/MainLayout.razor]
 build_metadata.AdditionalFiles.TargetPath = TWFpbkxheW91dC5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Mega/Work/Unit 16/assignment 2/Problem 1/code/Pages/Add-Task.razor]
+[D:/Mega/Work/Unit 16/assignment 2/U16A2 Charlie Smith/Problem 1/code/Pages/Add-Task.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRkLVRhc2sucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Mega/Work/Unit 16/assignment 2/Problem 1/code/Pages/Edit-Task.razor]
+[D:/Mega/Work/Unit 16/assignment 2/U16A2 Charlie Smith/Problem 1/code/Pages/Edit-Task.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRWRpdC1UYXNrLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Mega/Work/Unit 16/assignment 2/Problem 1/code/Pages/Index.razor]
+[D:/Mega/Work/Unit 16/assignment 2/U16A2 Charlie Smith/Problem 1/code/Pages/Index.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXgucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Mega/Work/Unit 16/assignment 2/Problem 1/code/Shared/MainLayout.razor]
+[D:/Mega/Work/Unit 16/assignment 2/U16A2 Charlie Smith/Problem 1/code/Shared/MainLayout.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE1haW5MYXlvdXQucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Mega/Work/Unit 16/assignment 2/Problem 1/code/_Imports.razor]
+[D:/Mega/Work/Unit 16/assignment 2/U16A2 Charlie Smith/Problem 1/code/_Imports.razor]
 build_metadata.AdditionalFiles.TargetPath = X0ltcG9ydHMucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Mega/Work/Unit 16/assignment 2/Problem 1/code/Pages/_Host.cshtml]
+[D:/Mega/Work/Unit 16/assignment 2/U16A2 Charlie Smith/Problem 1/code/Pages/_Host.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX0hvc3QuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 

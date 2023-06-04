@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "7bcLKoyjQ+k/ZNgtFj+U3jROASJEZ48FL8MLtohPLUNthJ7HFbSqnKl96SeAwhju9CCrEUk0dGMLY6ErwD1uzg==",
+  "dgSpecHash": "1xDwlF5J6B78thtmarYdhUHz0nBu9eWkaahfQpUZ5H57fK6aQKPrLH97LmhKr7CbGb2qeGV08yWcdu8NFsC/iw==",
   "success": true,
-  "projectFilePath": "D:\\Mega\\Work\\Unit 16\\assignment 2\\Problem 1\\code\\Blazor server app.csproj",
+  "projectFilePath": "D:\\Mega\\Work\\Unit 16\\assignment 2\\U16A2 Charlie Smith\\Problem 1\\code\\Blazor server app.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\charl\\.nuget\\packages\\dapper\\2.0.123\\dapper.2.0.123.nupkg.sha512",
     "C:\\Users\\charl\\.nuget\\packages\\microsoft.visualstudio.web.browserlink.12.0\\12.0.0\\microsoft.visualstudio.web.browserlink.12.0.12.0.0.nupkg.sha512",

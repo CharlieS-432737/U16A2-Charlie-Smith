@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "i1vJadXcqe5u4hA+CZVyo4ClthDZj8XS6a36CAKA2y8=",
+  "Hash": "xqExXIddkn+dgTucOyZPTc3ErWNwKAX0mZ74N4dPru4=",
   "Source": "Blazor server app",
   "BasePath": "_content/Blazor server app",
   "Mode": "Default",
@@ -10,17 +10,17 @@
     {
       "Name": "Blazor server app\\wwwroot",
       "Source": "Blazor server app",
-      "ContentRoot": "D:\\Mega\\Work\\Unit 16\\assignment 2\\Problem 1\\code\\wwwroot\\",
+      "ContentRoot": "D:\\Mega\\Work\\Unit 16\\assignment 2\\U16A2 Charlie Smith\\Problem 1\\code\\wwwroot\\",
       "BasePath": "_content/Blazor server app",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "D:\\Mega\\Work\\Unit 16\\assignment 2\\Problem 1\\code\\wwwroot\\css\\site.css",
+      "Identity": "D:\\Mega\\Work\\Unit 16\\assignment 2\\U16A2 Charlie Smith\\Problem 1\\code\\wwwroot\\css\\site.css",
       "SourceId": "Blazor server app",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Mega\\Work\\Unit 16\\assignment 2\\Problem 1\\code\\wwwroot\\",
+      "ContentRoot": "D:\\Mega\\Work\\Unit 16\\assignment 2\\U16A2 Charlie Smith\\Problem 1\\code\\wwwroot\\",
       "BasePath": "_content/Blazor server app",
       "RelativePath": "css/site.css",
       "AssetKind": "All",

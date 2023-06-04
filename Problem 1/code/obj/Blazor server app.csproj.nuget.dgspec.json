@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Mega\\Work\\Unit 16\\assignment 2\\Problem 1\\code\\Blazor server app.csproj": {}
+    "D:\\Mega\\Work\\Unit 16\\assignment 2\\U16A2 Charlie Smith\\Problem 1\\code\\Blazor server app.csproj": {}
   },
   "projects": {
-    "D:\\Mega\\Work\\Unit 16\\assignment 2\\Problem 1\\code\\Blazor server app.csproj": {
+    "D:\\Mega\\Work\\Unit 16\\assignment 2\\U16A2 Charlie Smith\\Problem 1\\code\\Blazor server app.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Mega\\Work\\Unit 16\\assignment 2\\Problem 1\\code\\Blazor server app.csproj",
+        "projectUniqueName": "D:\\Mega\\Work\\Unit 16\\assignment 2\\U16A2 Charlie Smith\\Problem 1\\code\\Blazor server app.csproj",
         "projectName": "Blazor server app",
-        "projectPath": "D:\\Mega\\Work\\Unit 16\\assignment 2\\Problem 1\\code\\Blazor server app.csproj",
+        "projectPath": "D:\\Mega\\Work\\Unit 16\\assignment 2\\U16A2 Charlie Smith\\Problem 1\\code\\Blazor server app.csproj",
         "packagesPath": "C:\\Users\\charl\\.nuget\\packages\\",
-        "outputPath": "D:\\Mega\\Work\\Unit 16\\assignment 2\\Problem 1\\code\\obj\\",
+        "outputPath": "D:\\Mega\\Work\\Unit 16\\assignment 2\\U16A2 Charlie Smith\\Problem 1\\code\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\charl\\AppData\\Roaming\\NuGet\\NuGet.Config",
