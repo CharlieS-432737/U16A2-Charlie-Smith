@@ -26,6 +26,8 @@ Launch `Blazor server app.exe`
 
 A console will appear with the address of the webpage
 
+Put that address into a browser and the webpage should load
+
 ### Problem 2
 
 For problem 2, I decided to create a simple console app with a menu.

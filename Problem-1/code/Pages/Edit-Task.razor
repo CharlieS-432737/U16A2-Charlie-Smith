@@ -100,9 +100,6 @@
     // Method to update the task
     public void UpdateTask()
     {
-        // Print the updated task details (for debugging purposes)
-        Console.WriteLine($"{Task.Title},{Task.Description},{Task.DueDate},{Task.id}");
-
         // Update the task in the database using SQLiteDataService
         SQLiteDataService.QueryData($"UPDATE tasks SET Title = '{Task.Title}', Description = '{Task.Description}', Due_date = '{Task.DueDate.ToString("dd/MM/yyyy")}' WHERE id = '{Task.id}'");
 
