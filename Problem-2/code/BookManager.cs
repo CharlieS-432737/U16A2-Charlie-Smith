@@ -18,6 +18,10 @@ namespace Problem_2
 
             string? path = "";
 
+            int duplicateBookCount = 0;
+
+            int bookCount = 0;
+
             // Prompt the user to enter the path to the CSV file
             while (valid == false)
             {
@@ -56,12 +60,22 @@ namespace Problem_2
                     parser.TextFieldType = FieldType.Delimited;
                     parser.SetDelimiters(",");
 
+                    bool firstLine = true;
+
                     // Loop through each line of the CSV file
                     while (!parser.EndOfData)
                     {
                         string[]? fields = parser.ReadFields();
                         if (fields?.Length >= 5)
                         {
+                            // Skip the first line of the csv file
+                            if (firstLine)
+                            {
+                                firstLine = false;
+
+                                continue;
+                            }
+
                             // Generate a serial number for the book
                             string serialNumber = serialNumberGenerator.GenerateSerialNumber(fields[1], fields[0], fields[2], fields[3], fields[4]);
 
@@ -79,13 +93,17 @@ namespace Problem_2
                             if (books.ContainsKey(book.SerialNumber))
                             {
                                 Console.WriteLine($"Duplicate book found with serial number: {book.SerialNumber}");
+                                duplicateBookCount += 1;
                                 continue;
                             }
 
                             // Add the book to the dictionary
                             books.Add(book.SerialNumber, book);
+
+                            bookCount += 1;
                         }
                     }
+
                     using (StreamWriter writer = new StreamWriter(outputFile))
                     {
                         // Write the header row
@@ -95,9 +113,19 @@ namespace Problem_2
                         foreach (var bookEntry in books)
                         {
                             Book book = bookEntry.Value;
-                            writer.WriteLine($"{book.SerialNumber},{book.Title},{book.Author},{book.PlacePublication},{book.Publisher},{book.PublicationDate}");
+                            writer.WriteLine($"{book.SerialNumber}," +
+                                             $"\"{book.Title}\"," +
+                                             $"\"{book.Author}\"," +
+                                             $"\"{book.PlacePublication}\"," +
+                                             $"\"{book.Publisher}\"," +
+                                             $"\"{book.PublicationDate}\"");
                         }
                     }
+
+                    // Output the book count and total duplicate book count to the user
+                    Console.WriteLine($"\n{bookCount} writen to {outputFile}");
+                    Console.WriteLine($"{duplicateBookCount} duplicate books removed");
+
                 }
             }
             catch (Exception ex)
