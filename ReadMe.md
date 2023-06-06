@@ -31,7 +31,6 @@ Put that address into a browser and the webpage should load
 ### Problem 2
 
 For problem 2, I decided to create a simple console app with a menu.
-The original data given for problem 2 was a .xlsx file (Microsoft Excel worksheet), but the assignment asked for a .csv file. Therefore, I converted the .xlsx file to a .csv file.
 
 To launch the program:
 
