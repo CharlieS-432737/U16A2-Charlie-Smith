@@ -1,0 +1,9 @@
+# Test log
+
+| Test Case | Description | Test Steps | Expected Result | Actual Result | Pass/Fail |
+|-----------|-------------|------------|-----------------|---------------|-----------|
+| 1         | Read and index books from a CSV file | 1. Provide a valid CSV file containing book details<br>2. Run the program<br>3. Choose the option to input the CSV file<br>4. Enter the path to the CSV file<br>5. Verify if the books are successfully read and indexed | The program should read the book details from the CSV file, generate unique index references, and store them in a new CSV file with the indexed details | The program successfully reeds the books from the csv file and outputs them with a serial number to a new csv file | Pass |
+| 2         | View stored books | 1. Run the program<br>2. Choose the option to list stored books | The program should display the stored books with their indexed details on the console | The program display a list of every book that is stored | Pass |
+| 3         | Delete stored books | 1. Run the program<br>2. Choose the option to delete stored books | The program should delete the output file containing the stored books | The program deletes the previous output file | Pass |
+| 4         | Quit the program without stored books | 1. Run the program<br>2. Choose the option to quit | The program should exit gracefully without any error | The program exits without any error | Pass |
+| 5         | Quit the program with stored books | 1. Run the program<br>2. Choose the option to input the CSV file<br>3. Enter the path to a valid CSV file<br>4. Choose the option to quit | The program should delete the output file containing the stored books and exit gracefully without any error | The program exits without any error and the books stay stored in the output csv file | Pass |
