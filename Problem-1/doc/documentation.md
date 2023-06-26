@@ -95,6 +95,12 @@ Larger version can be viewed using these links:
 
 -------------------------------------------------------------------------------
 
+## Design Justification
+
+The developed ToDo list application meets the client's requirements by providing the ability to create and delete tasks, track completion status, support task editing, display task details, and offer a toggle option for viewing all tasks or only incomplete ones. Users can easily create and remove tasks, mark them as complete or incomplete, and modify task details as needed. The application presents a clear and organized list of tasks, allowing users to manage their tasks effectively. With the toggle feature, users can focus on incomplete tasks, aiding prioritization and productivity. Overall, the application successfully fulfils the client's specifications, enhancing task management and organization.
+
+-------------------------------------------------------------------------------
+
 ## Evaluation of Final Products
 
 The programs fulfils the requirements by providing the necessary functionalities. For example, in the Add-
